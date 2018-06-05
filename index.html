@@ -1,0 +1,358 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>TUtoria de DAW</title>
+
+<!--gripo CSS-->
+<link rel="stylesheet" href="css/tema-app2.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--   <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/archivos/mysql1.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TutoriaL de DAW</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>DAW</h1>
+<div>
+<img src="res/android/icono.png" width="50%" height="50%">
+</div>
+<div></div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Primer Parcial</h2>
+<p>Muestra el temario del primer parcial</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Segundo Parcial</h2>
+<p>Muestra el temario del segundo parcial</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tercer parcial</h2>
+<p>Muestra el temario del tercer parcial</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Datos del diseñador</h2>
+<p>Muestra los datos del diseñador</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-position="fixed">
+<div>
+<img src="res/android/icono.png" width="46" height="46">
+</div>
+<div>
+<h4>Tutorial de DAW</h4>
+<h4>Luis Flores Vivaldo</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>primer parcial</h1>
+<div align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h1> css </h1>
+<div>
+<img src="imagenes/archivos/css.png" width="60%" height="70%">
+</div>
+</div>
+</div>
+</div>
+<div data-role="content" align="center">
+<div>
+<a href="https://historiaybiografias.com/web_internet///" data-role="button">
+<h2>web y funcionamiento del internet </h2>
+</a>
+<div data-role="content" align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/archivos/funcionamiento-internet1.jpg',1)"><img src="imagenes/archivos/funcionamiento-internet.jpg" width="60%" height="70%" id="Image12"></a></div>
+<a href="https://definicion.de/html///" data-role="button">
+<h2>HTML </h2>
+</a>
+<a href="https://mirianndrs.wordpress.com/2013/03/16/html-conocimientos-basicos-de-los-elementos-esenciales//" data-role="button">
+<p>Elementos basicos</p>
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/archivos/html.png',1)"><img src="imagenes/archivos/html1.png" width="60%" height="70%" id="Image13"></a>
+<a href="https://es.quora.com/Qu%C3%A9-es-HTML5-y-para-qu%C3%A9-sirve//" data-role="button">
+<h2>HTML5</h2>
+</a>
+<a href="http://www.laurachuburu.com.ar/tutoriales/linea-y-bloque.php//" data-role="button">
+<p>Elementos de bloque</p>
+</a>
+<a href="https://www.arkaitzgarro.com/html5/capitulo-3.html//" data-role="button">
+<p> Elementos de formulario</p>
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/archivos/HTML5.jpg',1)"><img src="imagenes/archivos/html5(2).jpg" width="60%" height="70%" id="Image14"></a><a href="
+https://developer.mozilla.org/es/docs/Web/CSS/Como_iniciar/Que_es_CSS//" data-role="button">
+<h2> CSS </h2>
+</a>
+<a href="http://www.htmlhelp.com/es/reference/css/structure.html//" data-role="button">
+<p>Regalsde estilo</p>
+</a>
+<a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=713:formas-de-aplicar-css-interno-y-externo-link-rel-y-archivos-de-extension-css-comentarios-css-cu01010d&catid=75&Itemid=203//" data-role="button">
+<p>Estilos en lineas, internos, externos</p>
+</a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/archivos/css.png',1)"><img src="imagenes/archivos/css3.png" width="60%" height="70%" id="Image15"></a>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/icono.png" width="46" height="46">
+</div>
+<h4>Tutorial de DAW, FVL </h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>segundo parcial</h1>
+</div>
+<div align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Php</h1>
+<div>
+<img src="imagenes/archivos/php1.png" width="60%" height="70%">
+</div>
+</div>
+</div>
+<div data-role="content" align="center">
+<div>
+<a href="https://developer.mozilla.org/es/docs/Web/CSS/Como_iniciar/Que_es_CSS//" data-role="button">
+<h2> css</h2>
+</a>
+<a href="https://get.slack.help/hc/es/articles/115005960323-Resoluci%C3%B3n-de-problemas-relativos-a-las-notificaciones-en-dispositivos-m%C3%B3viles//" data-role="button">
+<p>Ajuste relativo a dispositivos (%, em)</p>
+</a>
+<a href="https://sites.google.com/site/jojooa/informatica-tecnologia/definicion-de-wamp-que-es-wamp//" data-role="button">
+<h2>WAMP</h2>
+</a>
+<a href="http://www.maestrosdelweb.com/que-es-javascript///" data-role="button">
+<h2>JS</h2>
+</a>
+<a href="http://librosweb.es/libro/javascript/capitulo_3/tipos_de_variables.html//" data-role="button">
+<p>Variables</p>
+</a>
+<a href="https://desarrolloweb.com/articulos/583.php//" data-role="button">
+<p>funciones</p>
+</a>
+<a href="https://blog.agencialanave.com/jquery-que-es-y-para-que-sirve///" data-role="button">
+<p>jquery </p>
+</a>
+<a href="http://www.maestrosdelweb.com/que-es-javascript///" data-role="button">
+<h2>PHP</h2>
+</a>
+<a href="http://www.ibrugor.com/blog/que-es-php-para-que-sirve///" data-role="button">
+<p>Introduccion</p>
+</a>
+<div data-role="content" align="center">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/php.jpg" alt="php" title="php" id="wows2_0"/></li>
+		<li><img src="data2/images/php1.png" alt="php1" title="php1" id="wows2_1"/></li>
+		<li><img src="data2/images/phpmysql.jpg" alt="php-mysql" title="php-mysql" id="wows2_2"/></li>
+		<li><img src="data2/images/phpmysql1.jpg" alt="php-mysql1" title="php-mysql1" id="wows2_3"/></li>
+		<li><img src="data2/images/css.png" alt="css" title="css" id="wows2_4"/></li>
+		<li><img src="data2/images/css3.png" alt="css3" title="css3" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/html.png" alt="http://wowslider.com/" title="html" id="wows2_6"/></a></li>
+		<li><img src="data2/images/html1.png" alt="html1" title="html1" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="php"><span><img src="data2/tooltips/php.jpg" alt="php"/>1</span></a>
+		<a href="#" title="php1"><span><img src="data2/tooltips/php1.png" alt="php1"/>2</span></a>
+		<a href="#" title="php-mysql"><span><img src="data2/tooltips/phpmysql.jpg" alt="php-mysql"/>3</span></a>
+		<a href="#" title="php-mysql1"><span><img src="data2/tooltips/phpmysql1.jpg" alt="php-mysql1"/>4</span></a>
+		<a href="#" title="css"><span><img src="data2/tooltips/css.png" alt="css"/>5</span></a>
+		<a href="#" title="css3"><span><img src="data2/tooltips/css3.png" alt="css3"/>6</span></a>
+		<a href="#" title="html"><span><img src="data2/tooltips/html.png" alt="html"/>7</span></a>
+		<a href="#" title="html1"><span><img src="data2/tooltips/html1.png" alt="html1"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/icono.png" width="46" height="46">
+</div>
+<h4>Tutorial de DAW, FVL </h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Tercer parcial</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> JQuery</h1>
+<div>
+<img src="imagenes/archivos/jquery2.jpg" width="60%" height="70%">
+</div>
+</div>
+</div>
+<div data-role="content" align="center">
+<div>
+<a href="http://www.maestrosdelweb.com/que-es-javascript///" data-role="button">
+<h2>PHP</h2>
+</a>
+<div data-role="content" align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/archivos/php.jpg',1)"><img src="imagenes/archivos/php1.png" width="65" height="70" id="Image16"></a><a href="https://desarrolloweb.com/articulos/308.php//" data-role="button">
+<p>Variables</p>
+</a>
+<a href="https://desarrolloweb.com/articulos/312.php//" data-role="button">
+<p>funciones</p>
+</a>
+<a href="http://www.ejemplode.com/22-mysql///" data-role="button">
+<h2>MySQL</h2>
+</a>
+<a href="http://idesweb.es/temario/mysql//" data-role="button">
+<p>introducción</p>
+</a>
+<a href="https://cybmeta.com/ajax-con-json-y-php-ejemplo-paso-a-paso//" data-role="button">
+<p>conexión con php</p>
+</a>
+<div data-role="content" align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','imagenes/archivos/mysql1.jpg',1)"><img src="imagenes/archivos/jquery4.png" width="300" height="168" id="Image45"></a><a href="http://www.codedrinks.com/como-subir-una-pagina-web-a-internet-paso-a-paso///" data-role="button">
+<h2>subir a la red citios web</h2>
+</a>
+<a href="http://www.blogginred.com/2013/02/como-editar-el-contenido-de-una-pagina.html//" data-role="button">
+<h2>Editar contenido</h2>
+</a>
+<div data-role="content" align="center">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/jquery.png" alt="jquery" title="jquery" id="wows1_0"/></li>
+		<li><img src="data1/images/jquery1.png" alt="jquery1" title="jquery1" id="wows1_1"/></li>
+		<li><img src="data1/images/jquery2.jpg" alt="jquery2" title="jquery2" id="wows1_2"/></li>
+		<li><img src="data1/images/jquery3.jpg" alt="jquery3" title="jquery3" id="wows1_3"/></li>
+		<li><img src="data1/images/jquery4.png" alt="jquery4" title="jquery4" id="wows1_4"/></li>
+		<li><img src="data1/images/mysql.jpg" alt="mysql" title="mysql" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/mysql1.jpg" alt="slider" title="mysql1" id="wows1_6"/></a></li>
+		<li><img src="data1/images/mysql2.jpg" alt="mysql2" title="mysql2" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="jquery"><span><img src="data1/tooltips/jquery.png" alt="jquery"/>1</span></a>
+		<a href="#" title="jquery1"><span><img src="data1/tooltips/jquery1.png" alt="jquery1"/>2</span></a>
+		<a href="#" title="jquery2"><span><img src="data1/tooltips/jquery2.jpg" alt="jquery2"/>3</span></a>
+		<a href="#" title="jquery3"><span><img src="data1/tooltips/jquery3.jpg" alt="jquery3"/>4</span></a>
+		<a href="#" title="jquery4"><span><img src="data1/tooltips/jquery4.png" alt="jquery4"/>5</span></a>
+		<a href="#" title="mysql"><span><img src="data1/tooltips/mysql.jpg" alt="mysql"/>6</span></a>
+		<a href="#" title="mysql1"><span><img src="data1/tooltips/mysql1.jpg" alt="mysql1"/>7</span></a>
+		<a href="#" title="mysql2"><span><img src="data1/tooltips/mysql2.jpg" alt="mysql2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/icono.png" width="46" height="46">
+</div>
+<h4>Tutorial de DAW, FVL </h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Datos del desarrollador</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Escuela</h1>
+<div>
+<img src="imagenes/archivos/escuela.jpg" width="60%" height="70%">
+</div>
+</div>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>DAM</h2>
+<p>Desarrolla Aplicaciones Moviles</p>
+<h2>PROYECTO FINAL</h2>
+<h2>Profesor:José Antonio Goméz Hernandez</h2>
+<h2>Alumno:Luis Flores Vivaldo</h2>
+<h2>4° "F"</h2>
+<h2>"PROGRAMACIÓN"</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/icono.png" width="46" height="46">
+</div>
+<h4>Aplicacion Dos, FVL </h4>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/icono.png" width="46" height="46">
+</div>
+<h4>Aplicacion Dos, FVL </h4>
+</div>
+</div>
+</body>
+</html>
